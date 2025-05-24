@@ -52,5 +52,4 @@ Escolha uma opção:
 6. Selecionar task
 7. Sair
 
-Este projeto está sob a licença MIT. Veja o arquivo ,SINTA-SE A VONTADE PARA CONTRIBUIR 
-PARA MELHORAR O PROJETO.
+Este projeto está sob a licença MIT. Veja o arquivo ,SINTA-SE A VONTADE PARA CONTRIBUIR para melhorar o projeto.
