@@ -1,4 +1,6 @@
 package com.example.board.de.tarefas;
+
+
 import com.example.board.de.tarefas.entity.Board;
 import com.example.board.de.tarefas.entity.Task;
 import com.example.board.de.tarefas.enums.Status;
@@ -116,7 +118,15 @@ public class TaskManager {
         scanner.nextLine();
 
         Task task = taskService.createTask(name, Status.values()[statusIndex], boardId);
-        System.out.println("Task criada com ID: " + task.getId());
+        //System.out.println("Task criada com ID: " + task.getId());
+        //System.out.println("Task ID: " + task.getId());
+        if (task != null) {
+            System.out.println("Task ID: " + task.getId());
+        } else {
+            System.err.println("Erro: A tarefa está nula!");
+        }
+
+
     }
 
     private void excluirTask() {
